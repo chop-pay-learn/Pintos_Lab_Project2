@@ -1,0 +1,10 @@
+-I.
+-I./lib
+-I./lib/kernel
+-I./threads
+-I./userprog
+-I./filesys
+-I./vm
+-DPH_FILESYS
+-DPH_USERPROG
+-DPH_VM

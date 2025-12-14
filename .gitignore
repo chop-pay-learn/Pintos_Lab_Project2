@@ -1,0 +1,17 @@
+cscope.files
+cscope.out
+TAGS
+tags
+# 忽略所有目录下的 build 文件夹
+**/build/
+
+# 忽略编译产生的中间文件
+*.o
+*.d
+*.bin
+*.dsk
+*.out
+*.map
+
+# 忽略系统文件
+.DS_Store
