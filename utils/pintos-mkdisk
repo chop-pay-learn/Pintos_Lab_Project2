@@ -19,6 +19,7 @@ our ($include_loader);		# Include loader?
 our (@kernel_args);		# Kernel arguments.
 
 if (grep ($_ eq '--', @ARGV)) {
+  
     @kernel_args = @ARGV;
     @ARGV = ();
     while ((my $arg = shift (@kernel_args)) ne '--') {
